@@ -53,7 +53,7 @@
     },
     "virtualNetworkResourceGroup": {
       "type": "string",
-      "defaultValue": "[resourceGroup().GroupeR]",
+      "defaultValue": "[resourceGroup().name]",
       "metadata": {
         "description": "Name of the existing VNET resource group"
       }
